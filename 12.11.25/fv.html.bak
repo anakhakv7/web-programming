@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome To Registration Form</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f6fc;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #003366;
+  margin-top: 40px;
+}
+
+form {
+  background-color: #fff;
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+label {
+  width: 130px;
+  font-size: 18px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 220px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 5px #007bff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #D102B5;
+}
+
+</style>
+<script>
+function validate()
+{
+  var name = document.getElementById("nam").value;
+  var passwd = document.getElementById("pwd").value;
+  var phone = document.getElementById("pno").value;
+
+  if(name == "") {
+    alert('Name cannot be blank');
+    return false;
+  }
+  else if(!isNaN(name)) {
+    alert('Name must contain alphabets only');
+    return false;
+  }
+  else if(passwd == "") {
+    alert('Enter a Password');
+    return false;
+  }
+  else if(passwd.length < 8) {
+    alert('Password requires at least 8 characters');
+    return false;
+  }
+  else if(phone == "") {
+    alert('Enter your phone number!');
+    return false;
+  }
+  else if(isNaN(phone)) {
+    alert('Invalid Phone Number');
+    return false;
+  }
+  else if(phone.length != 10) {
+    alert('Phone Number must be 10 digits');
+    return false;
+  }
+  else {
+    alert('Thank You for Registration');
+    return true;
+  }
+}
+</script>
+</head>
+
+<body>
+<h2>Form Validation</h2>
+<form onsubmit="return validate()">
+  <label>Name:</label>
+  <input type="text" placeholder="Enter Name" id="nam"><br><br>
+
+  <label>Password:</label>
+  <input type="password" placeholder="Enter Password" id="pwd"><br><br>
+
+  <label>Phone Number:</label>
+  <input type="text" placeholder="Enter Phone Number" id="pno"><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>

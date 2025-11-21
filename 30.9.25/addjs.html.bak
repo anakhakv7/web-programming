@@ -1,0 +1,11 @@
+<html>
+<head><title>Addition</title></head>
+<body>
+<script>
+	 x = 5;
+	 y = 2;
+	 z = x+y;
+	document.write("the sum is: "+ z);
+</script>
+</body>
+</html>

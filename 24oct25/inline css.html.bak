@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>inline css</title>
+</head>
+<body style="background-color: #F5F1B0; font-family: Arial, font-style:sans-serif;">
+
+<h1 style="text-align: center; color: #1E90FF; font-family: 'Papyrus', fantasy; font-style: italic;">
+  Welcome to My BOOKSTORE 📖
+</h1>
+
+<p style="color: #555555; font-size: 18px; font-style: oblique; text-align: justify; font-family: 'Times New Roman', serif;">
+your ultimate destination for book lovers!
+Our online bookstore offers a wide range of books across all genres —from timeless Our user-friendly website allows
+you to browse, search, and purchase your favorite titles effortlessly.  &#128151;
+</p>
+
+<h2 style="color: #E36100; font-family: georgia, serif;">BEST SELLERS</h2>
+	<ol style="color: #333333; font-size: 17px; font-family: Monaco,monospace;">
+		<li style="color: #800080;">A thousand splendid sun &#127748;&#127774;</li>
+        <li style="color: #800080;">Ikigai &#127800;</li>
+        <li style="color: #800080;">Little women &#128096;</li>
+    </ol>
+	
+<h2 style="color: #70B360; font-family: Lucida Handwriting,cursive;">BOOKS AVAILABLE</h2>
+    <ul style="color: #444444; font-size: 17px; font-family:Verdana,sans-serif;">
+        <li style="color: #8B4513">The metamorphosis &#128030;</li>
+        <li style="color: #8B4513;">White nights &#128039;</li>
+        <li style="color: #8B4513;">Norwegian wood &#127795;</li>
+		<li style="color: #8B4513;">The silent patient &#9939;&#128138;</li>
+		<li style="color: #8B4513;">A good girls guide to murder &#128217;</li>
+		<li style="color: #8B4513;">verity &#127785;</li>
+		
+    </ul>
+</body>
+</html>

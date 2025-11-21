@@ -1,0 +1,41 @@
+ body { 
+      background-color: #F5F1B0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1E90FF;
+      font-family: 'Papyrus', fantasy;
+      font-style: italic;
+    }
+
+    p {
+      color: #555555;
+      font-size: 18px;
+      font-style: oblique;
+      text-align: justify;
+      font-family: 'Times New Roman', serif;
+    }
+
+    h2:nth-of-type(1) {
+      color: #E36100;
+      font-family: Georgia, serif;
+    }
+
+    h2:nth-of-type(2) {
+      color: #70B360;
+      font-family: 'Lucida Handwriting', cursive;
+    }
+
+    ol {
+      color: #333333;
+      font-size: 17px;
+      font-family: Monaco, monospace;
+    }
+
+    ul {
+      color: #444444;
+      font-size: 17px;
+      font-family: Verdana, sans-serif;
+    }

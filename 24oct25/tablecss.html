@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>css table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 40px auto;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #89BFF5;
+      color: black;
+    }
+    tr:nth-child(even) {
+      background-color: #F7FFC7;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+    caption {
+      caption-side: top;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #8C4141;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>📚 Bookstore Price List 📚</caption>
+    <thead>
+      <tr>
+        <th>Book ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Price (₹)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>B101</td>
+        <td>The Silent Patient</td>
+        <td>Alex Michaelides</td>
+        <td>499</td>
+      </tr>
+      <tr>
+        <td>B102</td>
+        <td>It Ends With Us</td>
+        <td>Colleen Hoover</td>
+        <td>399</td>
+      </tr>
+      <tr>
+        <td>B103</td>
+        <td>Ikigai</td>
+        <td>Héctor García & Francesc Miralles</td>
+        <td>350</td>
+      </tr>
+      <tr>
+        <td>B104</td>
+        <td>Norwegian Wood</td>
+        <td>Haruki Murakami</td>
+        <td>450</td>
+      </tr>
+      <tr>
+        <td>B105</td>
+        <td>A Good Girl’s Guide to Murder</td>
+        <td>Holly Jackson</td>
+        <td>499</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

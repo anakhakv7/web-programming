@@ -1,0 +1,30 @@
+<style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 40px auto;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #89BFF5;
+      color: black;
+    }
+    tr:nth-child(even) {
+      background-color: #F7FFC7;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+    caption {
+      caption-side: top;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #8C4141;
+    }
+  </style>
